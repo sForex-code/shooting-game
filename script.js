@@ -140,6 +140,7 @@ window.addEventListener("click",(event)=>{
    }
    projectTiles.push(new ProjectTile(canvas.width/2,canvas.height/2,10,"yellow",veloCtiy))
 })
+window.addEventListener("keydown",()=>location.reload())
 animate()
 spawnEnimies( )
 
